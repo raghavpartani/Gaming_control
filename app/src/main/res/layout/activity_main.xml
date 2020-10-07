@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/remote_button1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/arrow"
+        android:rotation="270" />
+
+    <ImageView
+        android:id="@+id/remote_button2"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="255dp"
+        android:background="@drawable/arrow"
+        android:rotation="90" />
+
+    <ImageView
+        android:id="@+id/remote_button3"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="175dp"
+        android:background="@drawable/arrow" />
+
+    <ImageView
+        android:id="@+id/remote_button4"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="175dp"
+        android:background="@drawable/arrow"
+        android:rotation="180" />
+
+
+    <ImageView
+        android:id="@+id/remote_button5"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/dot"
+        android:rotation="180" />
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/remote_text5"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="425dp"
+        android:text="Attack with gun"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/remote_button6"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/dot"
+        android:rotation="180" />
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/remote_text6"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="425dp"
+        android:text="Attack with leg"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/remote_button7"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="425dp"
+        android:background="@drawable/dot"
+        android:rotation="90" />
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/remote_text7"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="500dp"
+        android:text="Attack with gun"
+        android:gravity="center"/>
+</RelativeLayout>
